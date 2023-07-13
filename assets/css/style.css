@@ -8,10 +8,21 @@
 
 body {
     font-family: Katibeh;
+    font-weight: 500;
     color: green;
 }
 
-header {
-    font-weight: 400;
-    font-size: 200%;
+/* headings and logo for page*/
+
+h1,
+h2 {
+    font-family: katibeh, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;
+}
+
+#main-logo {
+    font-size: 280%;
+    text-align: center;
 }
