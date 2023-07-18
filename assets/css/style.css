@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Katibeh&family=Lato:wght@300&family=Merriweather:ital@0;1&family=Oswald&family=Work+Sans:wght@400;500;800&display=swap');
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: none;
@@ -9,7 +10,7 @@
 body {
     font-family: Katibeh;
     font-weight: 500;
-    color: green;
+    background-color: #9FB396;
 }
 
 /* headings and logo for page*/
@@ -22,17 +23,22 @@ h2 {
     color: black;
 }
 
+.header-content {
+    background: url('../images/Scotland-1.jpg') no-repeat center;
+    background-size: 100%;
+
+
+}
+
 #main-logo {
     font-size: 280%;
     text-align: center;
-    text-decoration: none;
-    background: url('../images/Scotland-1.jpg') no-repeat center;
-    background-size: 100%;
-    border-width: 200%;
+    padding: 25px, 0, 0, 0;
+    color: aliceblue;
+    /*border-width: 200%;
     margin-inline-start: 0%;
-    margin-inline-end: 0%;
+    margin-inline-end: 0%;*/
 }
-
 
 
 /* navigation links */
@@ -42,13 +48,31 @@ h2 {
     letter-spacing: 5px;
     text-align: center;
     column-gap: 20px;
+    align-items: center;
+    position: relative;
+    top: 75px;
 
 }
 
 #menu li {
     list-style-type: none;
-    display: inline-flex;
-    justify-content: space-between;
-    margin: 40px;
+    display: inline-block;
+    letter-spacing: normal;
+    background-color: cornsilk;
+    border-radius: 10px;
+    width: 100px;
+    margin: 20px 1vw;
 
+
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#menu a:hover {
+    border-bottom: 1px solid black;
 }
