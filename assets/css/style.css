@@ -55,24 +55,51 @@ h2 {
 }
 
 #menu li {
-    list-style-type: none;
     display: inline-block;
     letter-spacing: normal;
-    background-color: cornsilk;
+    text-transform: bold;
     border-radius: 10px;
     width: 100px;
     margin: 20px 1vw;
-
-
-
+    padding-bottom: 10px;
+    background-color: rgb(209, 190, 162);
 }
 
-#menu a {
+
+#menu li a {
     text-decoration: none;
     color: inherit;
+    text-align: center;
 
 }
 
 #menu a:hover {
     border-bottom: 1px solid black;
+}
+
+/*munro history information*/
+
+#history-info {
+    height: 600px;
+    padding-top: 100px;
+    text-align: center;
+    font-size: large;
+}
+
+#left-info {
+    padding-top: 30px;
+    margin-left: 150px;
+    width: 40%;
+    float: left;
+    text-align: center;
+
+}
+
+.old-map {
+    padding-top: 30px;
+    float: right;
+    width: 400px;
+    height: 500px;
+    margin-right: 30px;
+
 }
