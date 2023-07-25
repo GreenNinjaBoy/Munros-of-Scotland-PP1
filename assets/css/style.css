@@ -9,7 +9,7 @@
 
 body {
     font-family: Katibeh;
-    font-weight: 500;
+    font-weight: 600;
     background-color: #9FB396;
 }
 
@@ -114,19 +114,69 @@ h1 {
 
 #history-info {
     height: 200px;
-    text-align: center;
-    font-size: large;
+    align-items: baseline;
+    padding-bottom: 400px;
 }
 
-#history-info h2 {
+#history {
+    float: left;
+    width: 33%;
+}
+
+#history h2 {
+    font-size: 300%;
+    text-align: center;
+}
+
+#history p {
+    font-size: 150%;
+    text-align: center;
+    padding: 0 50px 0 50px;
+}
+
+#discovery h2 {
+    font-size: 300%;
+    padding-left: 200px;
+
+}
+
+#bagged {
+    float: right;
+    width: 33%
+}
+
+#bagged h2 {
+    font-size: 150%;
+    text-align: center;
+}
+
+
+#video {
+    display: flex;
+    justify-content: center;
+
+
+
+
+
+    /*#history {
     font-family: inherit;
     font-size: 275%;
+    padding-left: 60px;
+
 }
 
-.left-info {
+#history-info p {
     padding-top: 30px;
-    margin-left: 25px;
+    padding-left: 45px;
+    padding-right: 200px;
     width: 40%;
-    text-align: center;
+    text-align: left;
 
 }
+
+.discovery h2 {
+    font-family: inherit;
+    font-size: 275%;
+    text-align: center;
+}*/
