@@ -15,13 +15,6 @@ body {
 
 /* headings and logo for page*/
 
-h1 {
-    font-family: katibeh, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: black;
-}
-
 #header-content {
     background: url('../images/Scotland-1.jpg') no-repeat center;
     background-size: 100%;
@@ -31,6 +24,8 @@ h1 {
 
 .main-logo {
     font-size: 500%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
     text-align: center;
     justify-content: flex-start;
     color: aliceblue;
@@ -59,10 +54,10 @@ h1 {
     font-size: 160%;
     letter-spacing: 5px;
     text-align: center;
-    column-gap: 20px;
     align-items: center;
     position: relative;
     top: 75px;
+    background-color: rgb(209, 190, 162);
 
 }
 
@@ -89,12 +84,110 @@ h1 {
     border-bottom: 1px solid black;
 }
 
-/* walking group info and munro history information*/
+/* munro history information*/
+
+#history-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 25px;
+    height: 200px;
+    margin: 100px auto;
+}
+
+#history-info h2 {
+    font-size: 275%;
+
+
+}
+
+#history-info p {
+    font-size: 150%;
+
+}
+
+#history p {
+    padding-left: 25px;
+    padding-right: 50px;
+
+}
+
+#munro-name p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#compleater p {
+    padding-right: 25px;
+    padding-left: 50px;
+}
+
+#history-pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 150px 0;
+    gap: 20px;
+}
+
+#circle-container-1 {
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgb(209, 190, 162);
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-id-1 {
+    background: url(../images/Munro-walk\ picture.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#circle-container-2 {
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgb(209, 190, 162);
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-id-2 {
+    background: url(../images/Sir_Hugh_Munro_\(Scotland\).jpeg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+#circle-container-3 {
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgb(209, 190, 162);
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-id-3 {
+    background: url(../images/munro-bagging-grampians.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Club information */
 
 #group-info {
-    height: 600px;
-    padding-top: 100px;
-    padding-bottom: 0px;
+    height: 150px;
+    margin: 150px auto;
     text-align: center;
 }
 
@@ -109,49 +202,12 @@ h1 {
     font-size: 150%;
     padding-left: 25px;
     padding-right: 25px;
-
 }
 
-#history-info {
-    height: 200px;
-    align-items: baseline;
-    padding-bottom: 400px;
-}
-
-#history {
-    float: left;
-    width: 33%;
-}
-
-#history h2 {
-    font-size: 300%;
-    text-align: center;
-}
-
-#history p {
-    font-size: 150%;
-    text-align: center;
-    padding: 0 50px 0 50px;
-}
-
-#discovery h2 {
-    font-size: 300%;
-    padding-left: 200px;
-
-}
-
-#bagged {
-    float: right;
-    width: 33%
-}
-
-#bagged h2 {
-    font-size: 150%;
-    text-align: center;
-}
-
+/* video content*/
 
 #video {
     display: flex;
     justify-content: center;
+    margin: 200px 0;
 }
