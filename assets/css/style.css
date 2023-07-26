@@ -28,6 +28,7 @@ body {
     letter-spacing: 5px;
     text-align: center;
     justify-content: flex-start;
+    mix-blend-mode: screen;
     color: aliceblue;
 }
 
@@ -144,6 +145,7 @@ body {
 
 #circle-cover-id-1 {
     background: url(../images/Munro-walk\ picture.jpg) no-repeat center center;
+    background-size: cover;
     height: 100%;
     border-radius: 50%;
 }
@@ -161,6 +163,7 @@ body {
 
 #circle-cover-id-2 {
     background: url(../images/Sir_Hugh_Munro_\(Scotland\).jpeg) no-repeat center center;
+    background-size: cover;
     height: 100%;
     border-radius: 50%;
 
@@ -179,6 +182,7 @@ body {
 
 #circle-cover-id-3 {
     background: url(../images/munro-bagging-grampians.jpg) no-repeat center center;
+    background-size: cover;
     height: 100%;
     border-radius: 50%;
 }
@@ -231,4 +235,68 @@ footer {
     margin: 1%;
     padding: 5%;
     color: rgb(209, 190, 162);
+}
+
+/* styles for the equipment page*/
+
+.page-header {
+    margin: 100px auto;
+    font-size: 200%;
+    font-family: inherit;
+    text-align: center;
+}
+
+.equipment-card {
+    margin: 50px auto;
+    background-color: rgb(209, 190, 162);
+    box-shadow: 10px 10px 10px 10px #55684d;
+    transition: 0.3s;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 20px 20px 20px 20px;
+    border-radius: 1%;
+}
+
+#footware {
+    display: flex;
+    flex-direction: row;
+    margin: 25px auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#footware h4 {
+    font-size: 200%;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+#footware p {
+    font-size: 150%;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 600px;
+}
+
+#preperation {
+    display: flex;
+    flex-direction: row;
+    margin: 25px auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#preperation h4 {
+    font-size: 200%;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+#preperation p {
+    font-size: 150%;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 600px;
 }
