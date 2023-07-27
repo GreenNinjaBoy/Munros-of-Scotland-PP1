@@ -59,7 +59,7 @@ body {
     text-align: center;
     align-items: center;
     position: relative;
-    top: 75px;
+    top: 160px;
     background-color: rgb(209, 190, 162);
 
 }
@@ -70,7 +70,7 @@ body {
     text-transform: bold;
     border-radius: 10px;
     width: 100px;
-    margin: 20px 1vw;
+    margin: 10px 1vw;
     padding-bottom: 10px;
     background-color: rgb(209, 190, 162);
 }
@@ -225,6 +225,9 @@ footer {
 }
 
 .social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 350px;
     text-align: center;
 }
 
@@ -249,7 +252,9 @@ footer {
     text-align: center;
 }
 
-.container-card {
+#container-card {
+    display: flex;
+    justify-content: space-evenly;
     margin: 50px auto;
     background-color: rgb(209, 190, 162);
     box-shadow: 10px 10px 10px 10px #55684d;
@@ -261,13 +266,14 @@ footer {
 
 }
 
-.container-card h4 {
-    font-size: 200%;
+#container-card h4 {
+    font-size: 300%;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
+    text-decoration: underline;
 }
 
-#safe-essentials {
+.essentials {
     display: flex;
     flex-direction: row;
     margin: 25px auto;
@@ -277,9 +283,14 @@ footer {
 
 
 
-.container-card p {
-    font-size: 150%;
+#container-card p {
+    font-size: 180%;
     text-align: left;
     padding-left: 25px;
-    padding-right: 600px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.container-image {
+    padding: 20px 0 20px 0;
 }
