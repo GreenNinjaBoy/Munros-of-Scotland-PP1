@@ -58,7 +58,6 @@ body {
     letter-spacing: 5px;
     text-align: center;
     align-items: center;
-    position: relative;
     top: 160px;
     background-color: rgb(209, 190, 162);
 
@@ -134,7 +133,7 @@ body {
     gap: 20px;
 }
 
-#circle-container-1 {
+/*#circle-container-1 {
     height: 300px;
     width: 300px;
     padding: 30px;
@@ -143,14 +142,28 @@ body {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
+}*/
+
+.circular-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-#circle-cover-id-1 {
+.circular_image img {
+    width: 100%;
+}
+
+/*#circle-cover-id-1 {
     background: url(../images/Munro-walk\ picture.jpg) no-repeat center center;
     background-size: cover;
     height: 100%;
     border-radius: 50%;
-}
+}*/
 
 #circle-container-2 {
     height: 300px;
@@ -225,10 +238,11 @@ footer {
 }
 
 .social-networks {
+    margin: 100px auto;
     display: flex;
     justify-content: space-evenly;
     padding: 20px 350px;
-    text-align: center;
+
 }
 
 .social-networks>li {
@@ -246,7 +260,7 @@ footer {
 /* styles for the equipment page*/
 
 .page-header {
-    margin: 100px auto;
+    margin: 30px auto;
     font-size: 200%;
     font-family: inherit;
     text-align: center;
@@ -281,8 +295,6 @@ footer {
     padding-right: 100px;
 }
 
-
-
 #container-card p {
     font-size: 180%;
     text-align: left;
@@ -293,4 +305,35 @@ footer {
 
 .container-image {
     padding: 20px 0 20px 0;
+}
+
+
+.retail-header h4 {
+    text-align: center;
+    font-size: 300%;
+}
+
+.retail-header h6 {
+    text-align: center;
+    font-size: 150%;
+}
+
+.retail-links {
+    margin: 35px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* gallery page */
+
+#photos {
+    margin: 25px auto;
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos>img {
+    width: 100%;
 }
