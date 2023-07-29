@@ -88,125 +88,87 @@ body {
 
 /* munro history information*/
 
-#history-info {
+.history-info {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
     gap: 25px;
     height: 200px;
     margin: 100px auto;
 }
 
-#history-info h2 {
+.history-info h2 {
     font-size: 275%;
 
 
 }
 
-#history-info p {
+.history-info p {
     font-size: 150%;
-
-}
-
-#history p {
     padding-left: 25px;
     padding-right: 50px;
 
 }
 
-#munro-name p {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-#compleater p {
-    padding-right: 25px;
-    padding-left: 50px;
-}
-
-#history-pics {
+#history {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 150px 0;
-    gap: 20px;
+    flex-direction: column;
+    height: 600px;
+    padding-left: 25px;
+    background-color: rgb(209, 190, 162);
+    box-shadow: 10px 10px 10px 10px #55684d;
+    transition: 0.3s;
+    border-radius: 5px;
 }
 
-/*#circle-container-1 {
-    height: 300px;
-    width: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: rgb(209, 190, 162);
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}*/
+#why-munro {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    padding-left: 25px;
+    background-color: rgb(209, 190, 162);
+    box-shadow: 10px 10px 10px 10px #55684d;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+#compleater {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    padding-right: 25px;
+    background-color: rgb(209, 190, 162);
+    box-shadow: 10px 10px 10px 10px #55684d;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
 
 .circular-image {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    border-style: solid;
+    border-color: #55684d;
+    margin-top: 20px;
     overflow: hidden;
     background-color: blue;
     display: inline-block;
-    vertical-align: middle;
+    align-items: center;
 }
 
 .circular_image img {
     width: 100%;
 }
 
-/*#circle-cover-id-1 {
-    background: url(../images/Munro-walk\ picture.jpg) no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    border-radius: 50%;
-}*/
-
-#circle-container-2 {
-    height: 300px;
-    width: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: rgb(209, 190, 162);
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-id-2 {
-    background: url(../images/Sir_Hugh_Munro_\(Scotland\).jpeg) no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    border-radius: 50%;
-
-}
-
-#circle-container-3 {
-    height: 300px;
-    width: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: rgb(209, 190, 162);
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-id-3 {
-    background: url(../images/munro-bagging-grampians.jpg) no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    border-radius: 50%;
-}
-
 /* Club information */
 
 #group-info {
     height: 150px;
-    margin: 150px auto;
+    margin-top: 500px;
     text-align: center;
 }
 
@@ -228,7 +190,7 @@ body {
 #video {
     display: flex;
     justify-content: center;
-    margin: 200px 0;
+    margin: 300px auto;
 }
 
 /* footer content*/
@@ -336,4 +298,26 @@ footer {
 
 #photos>img {
     width: 100%;
+}
+
+/* Style for sign up page */
+
+.form-selection {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    height: 400px;
+    background-color: rgb(209, 190, 162);
+    box-shadow: 10px 10px 10px 10px #55684d;
+    transition: 0.3s;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 20px 20px 20px 20px;
+    border-radius: 1%;
+}
+
+#sign-up-form {
+    display: flex;
+    flex-direction: column;
+
 }
