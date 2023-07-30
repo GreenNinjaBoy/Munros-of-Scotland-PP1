@@ -302,22 +302,105 @@ footer {
 
 /* Style for sign up page */
 
+.baggers-sign-up h2 {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 300%;
+    text-decoration: underline;
+}
+
 .form-selection {
     display: flex;
     justify-content: space-evenly;
-    margin: 50px auto;
-    height: 400px;
+    margin: 50px 50px;
+    height: 450px;
     background-color: rgb(209, 190, 162);
     box-shadow: 10px 10px 10px 10px #55684d;
     transition: 0.3s;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     border: 20px 20px 20px 20px;
     border-radius: 1%;
 }
 
+#signup-reasons {
+    margin-right: 275px;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 200%;
+    text-align: left;
+    text-decoration: none;
+}
+
+#signup-reasons h4 {
+    font-size: 150%;
+}
+
+#signup-reasons ol {
+    list-style-type: square;
+    font-size: 75%;
+}
+
 #sign-up-form {
+    font-size: 250%;
     display: flex;
     flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+    background-color: rgb(209, 190, 162);
 
+}
+
+#fname {
+    font-size: 50%;
+    height: 25px;
+    border-radius: 5%;
+    background-color: rgb(245, 224, 193);
+    border: 2px solid #55684d;
+}
+
+#lname {
+    font-size: 50%;
+    height: 25px;
+    border-radius: 5%;
+    background-color: rgb(245, 224, 193);
+    border: 2px solid #55684d;
+}
+
+#email {
+    font-size: 50%;
+    height: 25px;
+    border-radius: 5%;
+    background-color: rgb(245, 224, 193);
+    border: 2px solid #55684d;
+}
+
+.join-button {
+    background-color: rgb(209, 190, 162);
+    box-shadow: 5px 5px 5px 5px #55684d;
+    transition: 0.3s;
+    width: 100px;
+    height: 50px;
+    border-radius: 25%;
+    font-family: inherit;
+    font-size: 50%;
+    position: relative;
+
+}
+
+.contact {
+    margin: 100px 50px;
+}
+
+#contact-info {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 150%;
+}
+
+#contact-header {
+    font-size: 300%;
+    text-align: center;
+    text-decoration: underline;
 }
