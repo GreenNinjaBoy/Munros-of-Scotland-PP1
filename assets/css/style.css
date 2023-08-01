@@ -237,7 +237,7 @@ footer {
     text-align: center;
 }
 
-#container-card-1 {
+.container-card {
     display: flex;
     justify-content: space-evenly;
     margin: 50px auto;
@@ -251,7 +251,7 @@ footer {
 
 }
 
-#container-card-1 h4 {
+.container-card h4 {
     font-size: 300%;
     font-weight: bold;
     text-align: center;
@@ -259,75 +259,13 @@ footer {
 }
 
 
-#container-card-1 p {
+.container-card p {
     font-size: 180%;
     text-align: left;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
 }
-
-#container-card-2 {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 50px auto;
-    background-color: rgb(209, 190, 162);
-    box-shadow: 10px 10px 10px 10px #55684d;
-    transition: 0.3s;
-    padding-left: 50px;
-    padding-right: 50px;
-    border: 20px 20px 20px 20px;
-    border-radius: 1%;
-
-}
-
-#container-card-2 h4 {
-    font-size: 300%;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: underline;
-}
-
-
-#container-card-2 p {
-    font-size: 180%;
-    text-align: left;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-}
-
-#container-card-3 {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 50px auto;
-    background-color: rgb(209, 190, 162);
-    box-shadow: 10px 10px 10px 10px #55684d;
-    transition: 0.3s;
-    padding-left: 50px;
-    padding-right: 50px;
-    border: 20px 20px 20px 20px;
-    border-radius: 1%;
-
-}
-
-#container-card-3 h4 {
-    font-size: 300%;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: underline;
-}
-
-
-#container-card-3 p {
-    font-size: 180%;
-    text-align: left;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-}
-
-
 
 .essentials {
     display: flex;
