@@ -34,9 +34,17 @@ body {
     color: aliceblue;
 }
 
+
 .main-logo a {
     text-decoration: none;
     color: aliceblue;
+
+    @media (max-width: 480px) {
+        color: red;
+
+        @keyframes {}
+    }
+
 }
 
 .sub-logo {
@@ -49,6 +57,7 @@ body {
     text-decoration: none;
     color: aliceblue;
 }
+
 
 
 /* navigation links */
@@ -187,7 +196,7 @@ body {
 
 /* video content*/
 
-#video {
+.video {
     display: flex;
     justify-content: center;
     margin: 300px auto;
@@ -228,7 +237,7 @@ footer {
     text-align: center;
 }
 
-#container-card {
+#container-card-1 {
     display: flex;
     justify-content: space-evenly;
     margin: 50px auto;
@@ -242,12 +251,83 @@ footer {
 
 }
 
-#container-card h4 {
+#container-card-1 h4 {
     font-size: 300%;
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
 }
+
+
+#container-card-1 p {
+    font-size: 180%;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+#container-card-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    background-color: rgb(209, 190, 162);
+    box-shadow: 10px 10px 10px 10px #55684d;
+    transition: 0.3s;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 20px 20px 20px 20px;
+    border-radius: 1%;
+
+}
+
+#container-card-2 h4 {
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+#container-card-2 p {
+    font-size: 180%;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+#container-card-3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    background-color: rgb(209, 190, 162);
+    box-shadow: 10px 10px 10px 10px #55684d;
+    transition: 0.3s;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 20px 20px 20px 20px;
+    border-radius: 1%;
+
+}
+
+#container-card-3 h4 {
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+#container-card-3 p {
+    font-size: 180%;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+
 
 .essentials {
     display: flex;
@@ -257,18 +337,24 @@ footer {
     padding-right: 100px;
 }
 
-#container-card p {
-    font-size: 180%;
-    text-align: left;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-}
-
 .container-image {
     padding: 20px 0 20px 0;
 }
 
+#boots-img {
+    height: 300px;
+    width: 300px;
+}
+
+#map-compass-img {
+    height: 300px;
+    width: 300px;
+}
+
+#hiking-illistration {
+    width: 400px;
+    height: 400px;
+}
 
 .retail-header h4 {
     text-align: center;
@@ -284,6 +370,22 @@ footer {
     margin: 35px auto;
     display: flex;
     justify-content: space-evenly;
+}
+
+
+#mountainwarehouse-logo {
+    width: 250px;
+    height: 150px;
+}
+
+#tresspass-logo {
+    width: 250px;
+    height: 150px;
+}
+
+#decathlon-logo {
+    width: 250px;
+    height: 150px;
 }
 
 /* gallery page */
@@ -403,4 +505,22 @@ footer {
     font-size: 300%;
     text-align: center;
     text-decoration: underline;
+}
+
+@keyframes test {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
 }
