@@ -16,7 +16,7 @@ body {
 /* headings and logo for page*/
 
 #header-content {
-    background: url('../images/Scotland-1.jpg') no-repeat center;
+    background: url('../images/scotland-1.jpg') no-repeat center;
     background-size: cover;
     position: relative;
     height: 300px;
@@ -445,20 +445,14 @@ footer {
     text-decoration: underline;
 }
 
-@keyframes test {
-    0% {
-        background-color: red;
-    }
+/* thank-you page*/
+.thank-you h1 {
+    font-size: 500%;
+    text-align: center;
 
-    25% {
-        background-color: yellow;
-    }
+}
 
-    50% {
-        background-color: blue;
-    }
-
-    100% {
-        background-color: green;
-    }
+.thank-you h3 {
+    font-size: 250%;
+    text-align: center;
 }
