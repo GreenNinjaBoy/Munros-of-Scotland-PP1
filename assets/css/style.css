@@ -38,13 +38,6 @@ body {
 .main-logo a {
     text-decoration: none;
     color: aliceblue;
-
-    @media (max-width: 480px) {
-        color: red;
-
-        @keyframes {}
-    }
-
 }
 
 .sub-logo {
@@ -455,4 +448,352 @@ footer {
 .thank-you h3 {
     font-size: 250%;
     text-align: center;
+}
+
+/* media quries*/
+@media screen (max-width: 768px) {
+
+    /* headings and logo for page */
+    .main-logo {
+        font-size: 300%;
+    }
+
+    /* navigation links */
+    #menu {
+        font-size: 140%;
+        top: 80px;
+    }
+
+    /* munro history information */
+    .history-info {
+        flex-wrap: wrap;
+        height: auto;
+        margin: 50px auto;
+    }
+
+    .history-info h2 {
+        font-size: 225%;
+    }
+
+    .history-info p {
+        font-size: 130%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #history,
+    #why-munro,
+    #compleater {
+        height: auto;
+        padding: 10px;
+        margin: 50px auto;
+    }
+
+    /* Club information */
+    #group-info {
+        height: auto;
+        margin-top: 200px;
+    }
+
+    .club h2 {
+        font-size: 225%;
+    }
+
+    .club p {
+        font-size: 130%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* video content*/
+    .video {
+        margin: 150px auto;
+    }
+
+    /* footer content*/
+    footer {
+        height: 100px;
+    }
+
+    .social-networks {
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    .social-networks i {
+        font-size: 120%;
+    }
+
+    /* styles for the equipment page*/
+    .page-header {
+        margin: 20px auto;
+        font-size: 180%;
+    }
+
+    .container-card {
+        margin: 20px auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container-card h4 {
+        font-size: 250%;
+    }
+
+    .container-card p {
+        font-size: 150%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .essentials {
+        flex-wrap: wrap;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-image {
+        padding: 10px 0 10px 0;
+    }
+
+    #boots-img,
+    #map-compass-img,
+    #hiking-illistration {
+        height: 200px;
+        width: 200px;
+    }
+
+    .retail-header h4 {
+        font-size: 250%;
+    }
+
+    .retail-header h6 {
+        font-size: 120%;
+    }
+
+    .retail-links {
+        margin: 20px auto;
+    }
+
+    #mountainwarehouse-logo,
+    #tresspass-logo,
+    #decathlon-logo {
+        width: 150px;
+        height: 90px;
+    }
+
+    /* gallery page */
+    #photos {
+        column-count: 3;
+    }
+
+    .baggers-sign-up h2 {
+        font-size: 250%;
+    }
+
+    .form-selection {
+        flex-direction: column;
+        margin: 20px 20px;
+        height: auto;
+    }
+
+    #signup-reasons {
+        margin-right: 0;
+        font-size: 150%;
+    }
+
+    #signup-reasons h4 {
+        font-size: 120%;
+    }
+
+    #signup-reasons ol {
+        font-size: 75%;
+    }
+
+    #sign-up-form {
+        font-size: 200%;
+        margin-right: 20px;
+    }
+
+    #fname,
+    #lname,
+    #email {
+        font-size: 40px;
+        height: 20px;
+    }
+
+    .join-button {
+        width: 80px;
+        height: 40px;
+        font-size: 40px;
+    }
+
+    .contact {
+        margin: 50px;
+    }
+
+    #contact-info {
+        margin-top: 50px;
+        font-size: 130%;
+    }
+
+    #contact-header {
+        font-size: 250%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* headings and logo for page */
+    .main-logo {
+        font-size: 400%;
+    }
+
+    /* navigation links */
+    #menu {
+        margin: auto auto;
+        font-size: 140%;
+    }
+
+    /* munro history information */
+    .history-info {
+        flex-direction: column;
+        gap: 10px;
+        margin: auto auto;
+    }
+
+    .club {}
+
+    /* video content */
+    .video {
+        margin: 100px auto;
+    }
+
+    /* footer content */
+    footer {
+        height: 100px;
+    }
+
+    .social-networks {
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    .social-networks i {
+        font-size: 140%;
+    }
+
+    /* styles for the equipment page */
+    .page-header {
+        margin: 20px auto;
+        font-size: 180%;
+    }
+
+    .container-card {
+        display: block;
+        align-items: center;
+        margin: 20px auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .container-card h4 {
+        font-size: 250%;
+    }
+
+    .container-card p {
+        font-size: 150%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .essentials {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #hiking {
+        display: inline-block;
+    }
+
+    .container-image {
+        align-items: center;
+        padding: 10px 0 10px 0;
+    }
+
+    #boots-img,
+    #map-compass-img,
+    #hiking-illistration {
+        height: 200px;
+        width: 200px;
+    }
+
+    .retail-header h4 {
+        font-size: 250%;
+    }
+
+    .retail-header h6 {
+        font-size: 130%;
+    }
+
+    .retail-links {
+        margin: 20px auto;
+    }
+
+    #mountainwarehouse-logo,
+    #tresspass-logo,
+    #decathlon-logo {
+        width: 150px;
+        height: 90px;
+    }
+
+    /* gallery page */
+    #photos {
+        column-count: 2;
+    }
+
+    .baggers-sign-up h2 {
+        font-size: 250%;
+    }
+
+    .form-selection {
+        flex-direction: column;
+        margin: 20px 20px;
+        height: auto;
+        display: block;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+
+    #signup-reasons {
+        margin-right: 0;
+        font-size: 180%;
+    }
+
+    #signup-reasons h4 {
+        font-size: 130%;
+    }
+
+    #signup-reasons ol {
+        font-size: 75%;
+    }
+
+    #sign-up-form {
+        font-size: 200%;
+        margin-right: 20px;
+    }
+
+    #fname,
+    #lname,
+    #email {
+        font-size: 40px;
+        height: 20px;
+    }
+
+    .join-button {
+        width: 80px;
+        height: 40px;
+        font-size: 40px;
+    }
+
 }
