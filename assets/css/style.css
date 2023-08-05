@@ -115,39 +115,18 @@ body {
 
 }
 
-#history {
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    padding-left: 25px;
-    background-color: rgb(209, 190, 162);
-    box-shadow: 10px 10px 10px 10px #55684d;
-    transition: 0.3s;
-    border-radius: 5px;
-}
-
-#why-munro {
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    padding-left: 25px;
-    background-color: rgb(209, 190, 162);
-    box-shadow: 10px 10px 10px 10px #55684d;
-    transition: 0.3s;
-    border-radius: 5px;
-}
-
+#history,
+#why-munro,
 #compleater {
     display: flex;
     flex-direction: column;
     height: 600px;
-    padding-right: 25px;
+    padding-left: 25px;
     background-color: rgb(209, 190, 162);
     box-shadow: 10px 10px 10px 10px #55684d;
     transition: 0.3s;
     border-radius: 5px;
 }
-
 
 .circular-image {
     width: 200px;
@@ -476,6 +455,8 @@ footer {
         flex-wrap: wrap;
         height: auto;
         margin: 50px auto;
+        display: flex;
+        flex-direction: column;
 
     }
 
@@ -492,7 +473,7 @@ footer {
     #history,
     #why-munro,
     #compleater {
-        height: auto;
+        height: fit-content;
         padding: 10px;
         margin: 50px auto;
     }
@@ -687,7 +668,7 @@ footer {
 
     /* video content */
     .video {
-        margin-top: 150%;
+        margin-top: 175%;
         margin-bottom: auto;
     }
 
@@ -727,6 +708,11 @@ footer {
         font-size: 150%;
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    #safety-first {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .essentials {
