@@ -195,6 +195,13 @@ body {
     margin: 300px auto;
 }
 
+#video-clip {
+    display: flex;
+    justify-content: center;
+    width: 560px;
+    height: 315px;
+}
+
 /* footer content*/
 
 footer {
@@ -469,6 +476,7 @@ footer {
         flex-wrap: wrap;
         height: auto;
         margin: 50px auto;
+
     }
 
     .history-info h2 {
@@ -618,14 +626,19 @@ footer {
     #fname,
     #lname,
     #email {
-        font-size: 40px;
+        font-size: 75%;
         height: 20px;
     }
 
     .join-button {
         width: 80px;
         height: 40px;
-        font-size: 40px;
+        font-size: 75%;
+        text-align: center;
+        display: inline-block;
+        margin-inline: auto;
+        margin-bottom: 40px;
+
     }
 
     .contact {
@@ -649,6 +662,10 @@ footer {
         font-size: 400%;
     }
 
+    #header-content {
+        background-size: cover;
+    }
+
     /* navigation links */
     #menu {
         margin: auto auto;
@@ -658,15 +675,20 @@ footer {
     /* munro history information */
     .history-info {
         flex-direction: column;
-        gap: 10px;
-        margin: auto auto;
+        gap: 40px;
+        margin: 800px auto;
+    }
+
+    #why-munro {
+        height: auto;
     }
 
     .club {}
 
     /* video content */
     .video {
-        margin: 100px auto;
+        margin-top: 150%;
+        margin-bottom: auto;
     }
 
     /* footer content */
