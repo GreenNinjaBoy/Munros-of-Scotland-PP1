@@ -710,7 +710,7 @@ footer {
         padding-right: 10px;
     }
 
-    #safety-first {
+    #organised {
         display: flex;
         flex-direction: column-reverse;
     }
@@ -736,6 +736,16 @@ footer {
         width: 200px;
     }
 
+    #boots-img,
+    #hiking-illistration {
+        margin-left: 30px;
+    }
+
+    #boots-img,
+    #map-compass-img {
+        margin-top: -10px;
+    }
+
     .retail-header h4 {
         font-size: 250%;
     }
@@ -751,7 +761,7 @@ footer {
     #mountainwarehouse-logo,
     #tresspass-logo,
     #decathlon-logo {
-        width: 150px;
+        width: 100px;
         height: 90px;
     }
 
@@ -784,6 +794,7 @@ footer {
 
     #signup-reasons ol {
         font-size: 75%;
+        margin-left: 25px;
     }
 
     #sign-up-form {
@@ -794,14 +805,18 @@ footer {
     #fname,
     #lname,
     #email {
-        font-size: 40px;
+        font-size: inherit;
         height: 20px;
+        width: 100%
     }
 
     .join-button {
         width: 80px;
         height: 40px;
-        font-size: 40px;
+        margin-left: 115px;
+        margin-top: 15px;
+        font-size: 75%;
+        top: -30px;
     }
 
 }
