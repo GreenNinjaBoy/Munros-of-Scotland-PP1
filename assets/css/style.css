@@ -414,6 +414,7 @@ footer {
 #contact-info {
     margin-top: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     font-size: 150%;
 }
@@ -422,6 +423,12 @@ footer {
     font-size: 300%;
     text-align: center;
     text-decoration: underline;
+}
+
+#map-location {
+    width: 600px;
+    height: 50px;
+    border: 0;
 }
 
 /* thank-you page*/
@@ -437,7 +444,7 @@ footer {
 }
 
 /* media quries*/
-@media screen (max-width: 768px) {
+@media screen and (max-width: 961px) {
 
     /* headings and logo for page */
     .main-logo {
@@ -636,7 +643,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 772px) {
 
     /* headings and logo for page */
     .main-logo {
@@ -817,6 +824,13 @@ footer {
         margin-top: 15px;
         font-size: 75%;
         top: -30px;
+    }
+
+    #map-location {
+        border: 0;
+        width: auto;
+        height: auto;
+        margin: 50px auto;
     }
 
 }
