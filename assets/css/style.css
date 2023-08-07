@@ -533,7 +533,7 @@ footer {
 
     #boots-img,
     #hiking-illistration {
-        margin-left: 30px;
+        margin-left: 60px;
     }
 
     #boots-img,
@@ -624,7 +624,7 @@ footer {
 }
 
 
-@media screen and (max-width: 1255px) {
+@media screen and (max-width: 768px) {
 
     /* headings and logo for page */
     .main-logo {
@@ -640,188 +640,189 @@ footer {
     /* munro history information */
     .history-info {
         flex-wrap: wrap;
-        height: auto;
-        margin: 50px auto;
+        height: fit-content;
+        margin: 25px auto;
         display: flex;
         flex-direction: column;
-
+        gap: 0px;
     }
 
-    .history-info h2 {
-        font-size: 225%;
-    }
+}
 
-    .history-info p {
-        font-size: 130%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+.history-info h2 {
+    font-size: 225%;
+}
 
-    #history,
-    #why-munro,
-    #compleater {
-        height: fit-content;
-        padding: 10px;
-        margin: 50px auto;
-    }
+.history-info p {
+    font-size: 130%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-    /* Club information */
-    #group-info {
-        height: auto;
-        margin-top: 200px;
-    }
+#history,
+#why-munro,
+#compleater {
+    height: fit-content;
+    padding: 10px;
+    margin: 50px auto;
+}
 
-    .club h2 {
-        font-size: 225%;
-    }
+/* Club information */
+#group-info {
+    height: auto;
+    margin-top: 200px;
+}
 
-    .club p {
-        font-size: 130%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+.club h2 {
+    font-size: 225%;
+}
 
-    /* video content*/
-    .video {
-        margin: 150px auto;
-    }
+.club p {
+    font-size: 130%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-    /* footer content*/
-    footer {
-        height: 100px;
-    }
+/* video content*/
+.video {
+    margin: 150px auto;
+}
 
-    .social-networks {
-        margin: 50px auto;
-        padding: 20px;
-    }
+/* footer content*/
+footer {
+    height: 100px;
+}
 
-    .social-networks i {
-        font-size: 120%;
-    }
+.social-networks {
+    margin: 50px auto;
+    padding: 20px;
+}
 
-    /* styles for the equipment page*/
-    .page-header {
-        margin: 20px auto;
-        font-size: 180%;
-    }
+.social-networks i {
+    font-size: 120%;
+}
 
-    .container-card {
-        margin: 20px auto;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+/* styles for the equipment page*/
+.page-header {
+    margin: 20px auto;
+    font-size: 180%;
+}
 
-    .container-card h4 {
-        font-size: 250%;
-    }
+.container-card {
+    margin: 20px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-    .container-card p {
-        font-size: 150%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+.container-card h4 {
+    font-size: 250%;
+}
 
-    .essentials {
-        flex-wrap: wrap;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+.container-card p {
+    font-size: 150%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-    .container-image {
-        padding: 10px 0 10px 0;
-    }
+.essentials {
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
-    #boots-img,
-    #map-compass-img,
-    #hiking-illistration {
-        height: 200px;
-        width: 200px;
-    }
+.container-image {
+    padding: 10px 0 10px 0;
+}
 
-    .retail-header h4 {
-        font-size: 250%;
-    }
+#boots-img,
+#map-compass-img,
+#hiking-illistration {
+    height: 200px;
+    width: 200px;
+}
 
-    .retail-header h6 {
-        font-size: 120%;
-    }
+.retail-header h4 {
+    font-size: 250%;
+}
 
-    .retail-links {
-        margin: 20px auto;
-    }
+.retail-header h6 {
+    font-size: 120%;
+}
 
-    #mountainwarehouse-logo,
-    #tresspass-logo,
-    #decathlon-logo {
-        width: 150px;
-        height: 90px;
-    }
+.retail-links {
+    margin: 20px auto;
+}
 
-    /* gallery page */
-    #photos {
-        column-count: 3;
-    }
+#mountainwarehouse-logo,
+#tresspass-logo,
+#decathlon-logo {
+    width: 150px;
+    height: 90px;
+}
 
-    .baggers-sign-up h2 {
-        font-size: 250%;
-    }
+/* gallery page */
+#photos {
+    column-count: 3;
+}
 
-    .form-selection {
-        flex-direction: column;
-        margin: 20px 20px;
-        height: auto;
-    }
+.baggers-sign-up h2 {
+    font-size: 250%;
+}
 
-    #signup-reasons {
-        margin-right: 0;
-        font-size: 150%;
-    }
+.form-selection {
+    flex-direction: column;
+    margin: 20px 20px;
+    height: auto;
+}
 
-    #signup-reasons h4 {
-        font-size: 120%;
-    }
+#signup-reasons {
+    margin-right: 0;
+    font-size: 150%;
+}
 
-    #signup-reasons ol {
-        font-size: 75%;
-    }
+#signup-reasons h4 {
+    font-size: 120%;
+}
 
-    #sign-up-form {
-        font-size: 200%;
-        margin-right: 20px;
-    }
+#signup-reasons ol {
+    font-size: 75%;
+}
 
-    #fname,
-    #lname,
-    #email {
-        font-size: 75%;
-        height: 20px;
-    }
+#sign-up-form {
+    font-size: 200%;
+    margin-right: 20px;
+}
 
-    .join-button {
-        width: 80px;
-        height: 40px;
-        font-size: 75%;
-        text-align: center;
-        display: inline-block;
-        margin-inline: auto;
-        margin-bottom: 40px;
+#fname,
+#lname,
+#email {
+    font-size: 75%;
+    height: 20px;
+}
 
-    }
+.join-button {
+    width: 80px;
+    height: 40px;
+    font-size: 75%;
+    text-align: center;
+    display: inline-block;
+    margin-inline: auto;
+    margin-bottom: 40px;
 
-    .contact {
-        margin: 50px;
-    }
+}
 
-    #contact-info {
-        margin-top: 50px;
-        font-size: 130%;
-        align-items: center;
-    }
+.contact {
+    margin: 50px;
+}
 
-    #contact-header {
-        font-size: 250%;
-    }
+#contact-info {
+    margin-top: 50px;
+    font-size: 130%;
+    align-items: center;
+}
+
+#contact-header {
+    font-size: 250%;
 }
 
 #map-location {
