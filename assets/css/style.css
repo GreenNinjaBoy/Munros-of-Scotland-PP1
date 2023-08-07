@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Katibeh;
+    font-family: Katibeh, Helvetica, sans-serif;
     font-weight: 600;
     background-color: #9FB396;
 }
@@ -68,7 +68,7 @@ body {
 #menu li {
     display: inline-block;
     letter-spacing: normal;
-    text-transform: bold;
+    text-transform: uppercase;
     border-radius: 10px;
     width: 100px;
     margin: 10px 1vw;
@@ -370,22 +370,8 @@ footer {
 
 }
 
-#fname {
-    font-size: 50%;
-    height: 25px;
-    border-radius: 5%;
-    background-color: rgb(245, 224, 193);
-    border: 2px solid #55684d;
-}
-
-#lname {
-    font-size: 50%;
-    height: 25px;
-    border-radius: 5%;
-    background-color: rgb(245, 224, 193);
-    border: 2px solid #55684d;
-}
-
+#fname,
+#lname,
 #email {
     font-size: 50%;
     height: 25px;
@@ -444,7 +430,201 @@ footer {
 }
 
 /* media quries*/
-@media screen and (max-width: 961px) {
+/* for smaller mobile device screens */
+
+@media screen and (max-width: 420px) {
+
+    /* headings and logo for page */
+    .main-logo {
+        font-size: 400%;
+    }
+
+    #header-content {
+        background-size: cover;
+    }
+
+    /* navigation links */
+    #menu {
+        margin: auto auto;
+        font-size: 140%;
+    }
+
+    /* munro history information */
+    .history-info {
+        flex-direction: column;
+        gap: 40px;
+        margin: auto auto;
+    }
+
+    #why-munro {
+        margin: 30px auto;
+    }
+
+    .club {}
+
+    /* video content */
+    .video {
+        margin: 30px auto;
+    }
+
+    /* footer content */
+    footer {
+        height: 100px;
+    }
+
+    .social-networks {
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    .social-networks i {
+        font-size: 140%;
+    }
+
+    /* styles for the equipment page */
+    .page-header {
+        margin: 20px auto;
+        font-size: 180%;
+    }
+
+    .container-card {
+        display: block;
+        align-items: center;
+        margin: 20px auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .container-card h4 {
+        font-size: 250%;
+    }
+
+    .container-card p {
+        font-size: 150%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #organised {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .essentials {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #hiking {
+        display: inline-block;
+    }
+
+    .container-image {
+        align-items: center;
+        padding: 10px 0 10px 0;
+    }
+
+    #boots-img,
+    #map-compass-img,
+    #hiking-illistration {
+        height: 200px;
+        width: 200px;
+    }
+
+    #boots-img,
+    #hiking-illistration {
+        margin-left: 30px;
+    }
+
+    #boots-img,
+    #map-compass-img {
+        margin-top: -10px;
+    }
+
+    .retail-header h4 {
+        font-size: 250%;
+    }
+
+    .retail-header h6 {
+        font-size: 130%;
+    }
+
+    .retail-links {
+        margin: 20px auto;
+    }
+
+    #mountainwarehouse-logo,
+    #tresspass-logo,
+    #decathlon-logo {
+        width: 100px;
+        height: 90px;
+    }
+
+    /* gallery page */
+    #photos {
+        column-count: 2;
+    }
+
+    .baggers-sign-up h2 {
+        font-size: 250%;
+    }
+
+    .form-selection {
+        flex-direction: column;
+        margin: 20px 20px;
+        height: auto;
+        display: block;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+
+    #signup-reasons {
+        margin-right: 0;
+        font-size: 180%;
+    }
+
+    #signup-reasons h4 {
+        font-size: 130%;
+    }
+
+    #signup-reasons ol {
+        font-size: 75%;
+        margin-left: 25px;
+    }
+
+    #sign-up-form {
+        font-size: 200%;
+        margin-right: 20px;
+    }
+
+    #fname,
+    #lname,
+    #email {
+        font-size: inherit;
+        height: 20px;
+        width: 100%
+    }
+
+    .join-button {
+        width: 80px;
+        height: 40px;
+        margin-left: 115px;
+        margin-top: 15px;
+        font-size: 75%;
+        top: -30px;
+    }
+
+    #map-location {
+        border: 0;
+        width: auto;
+        height: auto;
+        margin: 50px auto;
+    }
+
+}
+
+
+@media screen and (max-width: 1255px) {
 
     /* headings and logo for page */
     .main-logo {
@@ -636,6 +816,7 @@ footer {
     #contact-info {
         margin-top: 50px;
         font-size: 130%;
+        align-items: center;
     }
 
     #contact-header {
@@ -643,194 +824,8 @@ footer {
     }
 }
 
-@media screen and (max-width: 772px) {
-
-    /* headings and logo for page */
-    .main-logo {
-        font-size: 400%;
-    }
-
-    #header-content {
-        background-size: cover;
-    }
-
-    /* navigation links */
-    #menu {
-        margin: auto auto;
-        font-size: 140%;
-    }
-
-    /* munro history information */
-    .history-info {
-        flex-direction: column;
-        gap: 40px;
-        margin: 800px auto;
-    }
-
-    #why-munro {
-        height: auto;
-    }
-
-    .club {}
-
-    /* video content */
-    .video {
-        margin-top: 175%;
-        margin-bottom: auto;
-    }
-
-    /* footer content */
-    footer {
-        height: 100px;
-    }
-
-    .social-networks {
-        margin: 50px auto;
-        padding: 20px;
-    }
-
-    .social-networks i {
-        font-size: 140%;
-    }
-
-    /* styles for the equipment page */
-    .page-header {
-        margin: 20px auto;
-        font-size: 180%;
-    }
-
-    .container-card {
-        display: block;
-        align-items: center;
-        margin: 20px auto;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    .container-card h4 {
-        font-size: 250%;
-    }
-
-    .container-card p {
-        font-size: 150%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    #organised {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .essentials {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    #hiking {
-        display: inline-block;
-    }
-
-    .container-image {
-        align-items: center;
-        padding: 10px 0 10px 0;
-    }
-
-    #boots-img,
-    #map-compass-img,
-    #hiking-illistration {
-        height: 200px;
-        width: 200px;
-    }
-
-    #boots-img,
-    #hiking-illistration {
-        margin-left: 30px;
-    }
-
-    #boots-img,
-    #map-compass-img {
-        margin-top: -10px;
-    }
-
-    .retail-header h4 {
-        font-size: 250%;
-    }
-
-    .retail-header h6 {
-        font-size: 130%;
-    }
-
-    .retail-links {
-        margin: 20px auto;
-    }
-
-    #mountainwarehouse-logo,
-    #tresspass-logo,
-    #decathlon-logo {
-        width: 100px;
-        height: 90px;
-    }
-
-    /* gallery page */
-    #photos {
-        column-count: 2;
-    }
-
-    .baggers-sign-up h2 {
-        font-size: 250%;
-    }
-
-    .form-selection {
-        flex-direction: column;
-        margin: 20px 20px;
-        height: auto;
-        display: block;
-        padding-left: 30px;
-        padding-right: 10px;
-    }
-
-    #signup-reasons {
-        margin-right: 0;
-        font-size: 180%;
-    }
-
-    #signup-reasons h4 {
-        font-size: 130%;
-    }
-
-    #signup-reasons ol {
-        font-size: 75%;
-        margin-left: 25px;
-    }
-
-    #sign-up-form {
-        font-size: 200%;
-        margin-right: 20px;
-    }
-
-    #fname,
-    #lname,
-    #email {
-        font-size: inherit;
-        height: 20px;
-        width: 100%
-    }
-
-    .join-button {
-        width: 80px;
-        height: 40px;
-        margin-left: 115px;
-        margin-top: 15px;
-        font-size: 75%;
-        top: -30px;
-    }
-
-    #map-location {
-        border: 0;
-        width: auto;
-        height: auto;
-        margin: 50px auto;
-    }
-
+#map-location {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 70px;
 }
