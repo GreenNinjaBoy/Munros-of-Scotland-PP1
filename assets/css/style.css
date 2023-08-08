@@ -97,9 +97,9 @@ body {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 35px;
     gap: 25px;
-    height: 200px;
-    margin: 100px auto;
+
 }
 
 .history-info h2 {
@@ -120,7 +120,6 @@ body {
 #compleater {
     display: flex;
     flex-direction: column;
-    height: 600px;
     padding-left: 25px;
     background-color: rgb(209, 190, 162);
     box-shadow: 10px 10px 10px 10px #55684d;
@@ -141,15 +140,32 @@ body {
     align-items: center;
 }
 
-.circular_image img {
+.circular-image img {
     width: 100%;
+}
+
+.circle-container {
+    padding-bottom: 50px;
+}
+
+#history-img {
+    margin-right: 25px;
+}
+
+#why-munro-img {
+    margin-top: 50px;
+    margin-right: 25px;
+}
+
+#compleater-img {
+    margin-right: 25px;
 }
 
 /* Club information */
 
 #group-info {
     height: 150px;
-    margin-top: 500px;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -172,6 +188,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 300px auto;
+
 }
 
 #video-clip {
@@ -202,8 +219,7 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 0 auto;
-    padding: 0 auto;
-    border: 5%;
+    padding: 0;
     color: rgb(209, 190, 162);
 }
 
@@ -225,7 +241,7 @@ footer {
     transition: 0.3s;
     padding-left: 50px;
     padding-right: 50px;
-    border: 20px 20px 20px 20px;
+    border: 20px;
     border-radius: 1%;
 
 }
@@ -338,7 +354,7 @@ footer {
     transition: 0.3s;
     padding-left: 150px;
     padding-right: 150px;
-    border: 20px 20px 20px 20px;
+    border: 20px;
     border-radius: 1%;
 }
 
@@ -400,7 +416,7 @@ footer {
 #contact-info {
     margin-top: 100px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     font-size: 150%;
 }
@@ -412,8 +428,9 @@ footer {
 }
 
 #map-location {
-    width: 600px;
-    height: 50px;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
     border: 0;
 }
 
@@ -432,7 +449,7 @@ footer {
 /* media quries*/
 /* for smaller mobile device screens */
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 767px) {
 
     /* headings and logo for page */
     .main-logo {
@@ -453,18 +470,26 @@ footer {
     .history-info {
         flex-direction: column;
         gap: 40px;
-        margin: auto auto;
+        margin: 30px auto;
     }
 
     #why-munro {
         margin: 30px auto;
     }
 
-    .club {}
+    #group-info {
+        margin-top: auto;
+    }
 
     /* video content */
     .video {
         margin: 30px auto;
+    }
+
+    #video-clip {
+        margin-top: 700px;
+        width: fit-content;
+        height: fit-content;
     }
 
     /* footer content */
@@ -623,8 +648,7 @@ footer {
 
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1266px) {
 
     /* headings and logo for page */
     .main-logo {
@@ -645,188 +669,189 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 0px;
+
     }
 
-}
+    .history-info h2 {
+        font-size: 225%;
+    }
 
-.history-info h2 {
-    font-size: 225%;
-}
+    .history-info p {
+        font-size: 130%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-.history-info p {
-    font-size: 130%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    #history,
+    #why-munro,
+    #compleater {
+        height: fit-content;
+        padding: 10px;
+        margin: 50px auto;
+        width: 85%;
+    }
 
-#history,
-#why-munro,
-#compleater {
-    height: fit-content;
-    padding: 10px;
-    margin: 50px auto;
-}
+    /* Club information */
+    #group-info {
+        height: auto;
+        margin-top: 200px;
+    }
 
-/* Club information */
-#group-info {
-    height: auto;
-    margin-top: 200px;
-}
+    .club h2 {
+        font-size: 225%;
+    }
 
-.club h2 {
-    font-size: 225%;
-}
+    .club p {
+        font-size: 130%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-.club p {
-    font-size: 130%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    /* video content*/
+    .video {
+        margin: 150px auto;
+    }
 
-/* video content*/
-.video {
-    margin: 150px auto;
-}
+    /* footer content*/
+    footer {
+        height: 100px;
+    }
 
-/* footer content*/
-footer {
-    height: 100px;
-}
+    .social-networks {
+        margin: 50px auto;
+        padding: 20px;
+    }
 
-.social-networks {
-    margin: 50px auto;
-    padding: 20px;
-}
+    .social-networks i {
+        font-size: 120%;
+    }
 
-.social-networks i {
-    font-size: 120%;
-}
+    /* styles for the equipment page*/
+    .page-header {
+        margin: 20px auto;
+        font-size: 180%;
+    }
 
-/* styles for the equipment page*/
-.page-header {
-    margin: 20px auto;
-    font-size: 180%;
-}
+    .container-card {
+        margin: 20px auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-.container-card {
-    margin: 20px auto;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    .container-card h4 {
+        font-size: 250%;
+    }
 
-.container-card h4 {
-    font-size: 250%;
-}
+    .container-card p {
+        font-size: 150%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-.container-card p {
-    font-size: 150%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    .essentials {
+        flex-wrap: wrap;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-.essentials {
-    flex-wrap: wrap;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    .container-image {
+        padding: 10px 0 10px 0;
+    }
 
-.container-image {
-    padding: 10px 0 10px 0;
-}
+    #boots-img,
+    #map-compass-img,
+    #hiking-illistration {
+        height: 200px;
+        width: 200px;
+    }
 
-#boots-img,
-#map-compass-img,
-#hiking-illistration {
-    height: 200px;
-    width: 200px;
-}
+    .retail-header h4 {
+        font-size: 250%;
+    }
 
-.retail-header h4 {
-    font-size: 250%;
-}
+    .retail-header h6 {
+        font-size: 120%;
+    }
 
-.retail-header h6 {
-    font-size: 120%;
-}
+    .retail-links {
+        margin: 20px auto;
+    }
 
-.retail-links {
-    margin: 20px auto;
-}
+    #mountainwarehouse-logo,
+    #tresspass-logo,
+    #decathlon-logo {
+        width: 150px;
+        height: 90px;
+    }
 
-#mountainwarehouse-logo,
-#tresspass-logo,
-#decathlon-logo {
-    width: 150px;
-    height: 90px;
-}
+    /* gallery page */
+    #photos {
+        column-count: 3;
+    }
 
-/* gallery page */
-#photos {
-    column-count: 3;
-}
+    .baggers-sign-up h2 {
+        font-size: 250%;
+    }
 
-.baggers-sign-up h2 {
-    font-size: 250%;
-}
+    .form-selection {
+        flex-direction: column;
+        margin: 20px 20px;
+        height: auto;
+    }
 
-.form-selection {
-    flex-direction: column;
-    margin: 20px 20px;
-    height: auto;
-}
+    #signup-reasons {
+        margin-right: 0;
+        font-size: 150%;
+    }
 
-#signup-reasons {
-    margin-right: 0;
-    font-size: 150%;
-}
+    #signup-reasons h4 {
+        font-size: 120%;
+    }
 
-#signup-reasons h4 {
-    font-size: 120%;
-}
+    #signup-reasons ol {
+        font-size: 75%;
+    }
 
-#signup-reasons ol {
-    font-size: 75%;
-}
+    #sign-up-form {
+        font-size: 200%;
+        margin-right: 20px;
+    }
 
-#sign-up-form {
-    font-size: 200%;
-    margin-right: 20px;
-}
+    #fname,
+    #lname,
+    #email {
+        font-size: 75%;
+        height: 20px;
+    }
 
-#fname,
-#lname,
-#email {
-    font-size: 75%;
-    height: 20px;
-}
+    .join-button {
+        width: 80px;
+        height: 40px;
+        font-size: 75%;
+        text-align: center;
+        display: inline-block;
+        margin-inline: auto;
+        margin-bottom: 40px;
 
-.join-button {
-    width: 80px;
-    height: 40px;
-    font-size: 75%;
-    text-align: center;
-    display: inline-block;
-    margin-inline: auto;
-    margin-bottom: 40px;
+    }
 
-}
+    .contact {
+        margin: 50px;
+    }
 
-.contact {
-    margin: 50px;
-}
+    #contact-info {
+        margin-top: 50px;
+        font-size: 130%;
+        align-items: center;
+    }
 
-#contact-info {
-    margin-top: 50px;
-    font-size: 130%;
-    align-items: center;
-}
+    #contact-header {
+        font-size: 250%;
+    }
 
-#contact-header {
-    font-size: 250%;
-}
-
-#map-location {
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 70px;
+    #map-location {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 70px;
+    }
 }
