@@ -5,7 +5,7 @@ This website was developed for individuals who are interested in joining a walki
 A live version of the website can be accessed [here.](https://greenninjaboy.github.io/Munros-of-Scotland-PP1)
    
 
-![images of site shown on multiple devices](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/munro-baggers-multi-device-website-mockup-generator.png?raw=true){:target="_blank"}
+![images of site shown on multiple devices](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/munro-baggers-multi-device-website-mockup-generator.png?raw=true)
 
 # Table of Contents
 
