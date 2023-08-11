@@ -11,17 +11,17 @@ A live version of the website can be accessed [here.](https://greenninjaboy.gith
 
  - [User Experience](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#User-Experience)
 	 - [User Demographic](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#User-Demographic)
-	 - [User Stories]
-	 - [Wireframes]
-		 - Desktop
-	 - Designs
-		 - Colours
-		 - Typography
- - Features
-	 - Existing Features 
-		 - Header and Navigation Bar
-		 - History Section
-		 - Why Join Section
+	 - [User Stories](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#User-Stories)
+	 - [Wireframes](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#Wireframes)
+		 - [Desktop]
+	 - [Designs](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#Designs)
+		 - [Colours](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#Colours)
+		 - [Typography](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#Typography)
+ - [Features](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#Features)
+	 - [Existing Features](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#Existing-Features) 
+		 - [Header and Navigation Bar](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#Header-and-Navigation-Bar)
+		 - [History Section](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#History-Section)
+		 - [Why Join Section](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#Why-Join-Section)
 		 - Motivational Video
 		 - Gallery
 		 - Equipment Page
@@ -244,3 +244,9 @@ Social Media Links | When a social media icon is clicked a new tab  is opened in
 | Social Media links responsivity | Social Media Links should be responsive on all screen sizes. | Resized browser and check social media links on different screens. | Pass
 
 ## Validator Testing
+
+**HTML**
+No errors were shown when passed through the official [W3C Vailtdator](https://validator.w3.org/)
+
+
+Insert image of HMTL Test
