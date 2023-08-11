@@ -10,9 +10,9 @@ A live version of the website can be accessed [here.](https://greenninjaboy.gith
 # Table of Contents
 
  - [User Experience](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#User-Experience)
-	 - User Demographic
-	 - User Stories
-	 - Wireframes
+	 - [User Demographic](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#User-Demographic)
+	 - [User Stories]
+	 - [Wireframes]
 		 - Desktop
 	 - Designs
 		 - Colours
