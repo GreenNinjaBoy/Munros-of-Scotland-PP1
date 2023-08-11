@@ -10,7 +10,7 @@ A live version of the website can be accessed [here.](https://greenninjaboy.gith
 # Table of Contents
 
  - [User Experience](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#User-Experience)
-	 - [User Demographic](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#User-Demographic)
+	 - [User Demographic](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/##User-Demographic)
 	 - [User Stories](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#User-Stories)
 	 - [Wireframes](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/#Wireframes)
 		 - [Desktop]
@@ -168,7 +168,7 @@ The Munro Baggers website comprises of 4 main pages, all of which can be navigat
  - This gives the user an indication that their form has been received and that they have signed up to the Munro Baggers Club.
  - The page will the redirected the user back to the homepage after seven seconds. If the user isn't redirected there is a hyperlink available that will redirect back to the home page.
 
-Insert Image Here
+![thank-you-image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/thank-you-page-image.png?raw=true)
 
 **Social Media Links**
 
@@ -176,7 +176,7 @@ Insert Image Here
  - The inspiration for these links were taken form the "Love Running" walkthrough project delivered by Code Institute. The display icons were chosen from [Font Awesome.](https://fontawesome.com/)
  - when clicked each link will open a new tab for the user directing them to the associated social media website.
 
-Insert Image Here
+![social-media-links](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/social-media-links.png?raw=true)
 
 
 ## **Features Left to Implement**
@@ -246,7 +246,84 @@ Social Media Links | When a social media icon is clicked a new tab  is opened in
 ## Validator Testing
 
 **HTML**
-No errors were shown when passed through the official [W3C Vailtdator](https://validator.w3.org/)
+No errors were shown when passed through the official [W3C Valitdator](https://validator.w3.org/)
 
 
 Insert image of HMTL Test
+
+**CSS**
+No errors were shown when passed through the official [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+![css-validation-image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/css-validation.png?raw=true)
+
+**Lighthouse Testing**
+
+Insert image of lighthouse test here
+
+
+**WCAG Contrast Checker**
+
+This checker was used to check the text colour to the background colour on all pages with the option to show what the webpage would look like for users with some visual colour impairment.
+when checked the only error that was presenting was the main text and the colour white that was chosen, looking at the program this is because it was comparing the text against the main background colour of green and not the main header image that is is displayed on. It was decided that this text would remain white as it complimented the background and did not effect the over all look of the webpage when looking through the different colour impairment filters. 
+
+Insert Different Images Here
+
+# Known Bugs
+
+List any bugs below when running through final testing of the webpage.
+
+
+# Deployment
+The site was deployed to Github pages. The steps to deploy are as follows:
+
+ 1. Navigate to GitHub.
+ 2. Choose the desired GitHub repository.
+ 3. Select settings from the top menu bar.
+ 4. On the left hand side, under code and automation section, choose pages.
+ 5. Under the build and deployment heading, set branch as main and click save.
+ 6. The website will deploy, a link to the project will be seen at the top of the page.
+
+The Live link Can be accessed here: [Munro Baggers](https://greenninjaboy.github.io/Munros-of-Scotland-PP1/)
+
+# Credits
+
+
+
+## **Images**
+
+All of the images with the exception of one were acquired  through google images, a list of these images can be found below:
+
+ - [Camping Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/camping-picture.jpg?raw=true)
+ - [Decathlon Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/decathilon-image.png?raw=true)
+ - [Great View Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/great-view.jpg?raw=true)
+ - [Highland Cow Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/highland-cow.jpg?raw=true)
+ - [Hikers With Map Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/hikers-using-map-and-compass.jpg?raw=true)
+ - [Hiker Illustration Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/hiking.png?raw=true) (This Image was taken from)
+ - [Hikers Hiking Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/munro-bagging-grampians.jpg?raw=true)
+ - [Munro Jump Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/munro-jump-pic.jpg?raw=true)
+ - [Munro Man Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/munro-man.jpg?raw=true)
+ - [Munro Runner Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/munro-runner.jpg?raw=true)
+ - [Munro Walk Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/munro-walk-picture.jpg?raw=true)
+ - [Munro Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/munros-450.jpg?raw=true)
+ - [Mountainwarehouse Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/mw-opengraph.png?raw=true)
+ - [Old Map of Scotland Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/old-map-of-scotland.jpg?raw=true)
+ - [Schieallion Women Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/schiehallion-woman.jpg?raw=true)
+ - [Main Header Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/scotland-1.jpg?raw=true)
+ - [Sky Bridge Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/scotland-landscape-sky-bridge.jpg?raw=true)
+ - [Sir Hugh Munro Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/sir-hugh-munro.jpeg?raw=true)
+ - [Snow Covered Mountain Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/snow-covered-mountain.jpg?raw=true)
+ - [Snow Covered Mountain 2 Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/snow-pic.jpeg?raw=true)
+ - [Tresspass Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/trespass.png?raw=true)
+ - [Walking Boots Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/walking-boots.jpg?raw=true)
+
+## Video
+
+A link to the video used in the homepage can be found [here.](https://www.youtube.com/watch?v=5sLKi3ltQBA&t=55s)
+
+
+# Acknowledgments
+I would like to thank my mentor Lauren-Nicole Popich, the Code Institute team and the Slack community for their continuing support during this project.
+
+
+
+[Back to Top](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/tree/main#munro-baggers)
