@@ -9,7 +9,7 @@ A live version of the website can be accessed [here.](https://greenninjaboy.gith
 
 # Table of Contents
 
- - [User Experience](#-User-Experience)
+ - User Experience
 	 - User Demographic
 	 - User Stories
 	 - Wireframes
@@ -35,9 +35,9 @@ A live version of the website can be accessed [here.](https://greenninjaboy.gith
 	- Why us Section
 	- Motivational Video
 	- Gallery
-	- Retail Links 
+	- Equipment Page
 	- Sign-up Form
-	- Submission/Thank You Page
+	- Social Media Links
 	- Validator Testing
 		- HTML
 		- CSS
@@ -161,3 +161,86 @@ The Munro Baggers website comprises of 4 main pages, all of which can be navigat
  - The display of this section is similar to the why join us section of the home page as it flows better with the sign up section.
 
 ![contact us section](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/contact-section-image.png?raw=true)
+
+**Submission/Thank you page**
+
+ - When the user completes the sign up form they are redirected to a thank you page.
+ - This gives the user an indication that their form has been received and that they have signed up to the Munro Baggers Club.
+ - The page will the redirected the user back to the homepage after seven seconds. If the user isn't redirected there is a hyperlink available that will redirect back to the home page.
+
+Insert Image Here
+
+**Social Media Links**
+
+ - There is a footer at the bottom of every page and this footer consists of social media links.
+ - The inspiration for these links were taken form the "Love Running" walkthrough project delivered by Code Institute. The display icons were chosen from [Font Awesome.](https://fontawesome.com/)
+ - when clicked each link will open a new tab for the user directing them to the associated social media website.
+
+Insert Image Here
+
+
+## **Features Left to Implement**
+
+ - Possibly create  a page that would detail planned events the group have organized for the month.
+ - A user profile could be created to allow the user to sign into the website.
+ - A discussion board created so users can discuss/plan events out with the main club outings. 
+
+# Testing
+
+Testing of the websites functionality can be seen within the tables below. Each section of the website has been tested according to the feature and testing different devices and screen resolutions has been conducted using Google DevTools. Each section has also been tested on live devices to determine it was accurate against Google DevTools.
+
+## **Header and Navigation Bar**
+
+| Feature | Expect | Action | Result |
+| ------- | ------ | ------ | ------ |
+| Main Header | When Clicked it will take the user back to the homepage.  | Clicked Main Header | Pass|
+|Sub Header| When Clicked it will take the user back to the homepage. | Clicked Sub Header | Pass
+|Home Nav Button | When Clicked will take the user back to the homepage.| Clicked Home Nav Button | Pass
+|Gallery Nav Button | When Clicked will Take the user to the Gallery Page | Clicked Gallery Button | Pass
+|Equipment Nav Button | When Clicked will take the user to the Equipment Page | Clicked Gallery Button | Pass
+|Sign up Nav Button | When clicked will take the user to the Sign up Page	| Clicked Sign Up Button | Pass
+
+## **Main Header Image**
+
+|Feature| Expect  | Action | Result |
+|-----  |---------| -------| -------|
+| Main Header Image Responsive | When screen size is changed the image does not distort and fits onto the screen | Resized the browser and checked the image against different screen resolutions| Pass|
+
+## **History Section**
+
+| Feature | Expect | Action | Result |
+|---------|--------| -------| -------|
+| History boxes responsive | when screen size is changed the history boxes and their content change to fit the screen | Resized the browser and checked the boxes against different screen resolutions | Pass |
+| Why us Section | When screen size is changed the Why Us sections content change to fit the screen | Resized the browser and checked the Why Us section against different screen resolutions | Pass |
+| Video Section | The video will be responsive on all screen sizes | Resized the browser and checked the video against different screen resolutions | Pass
+
+## **Gallery Page**
+
+|Feature| Expect  | Action | Result |
+|-------|-------- | ------ | -------|
+| Gallery Images Responsive | when screen size is changed the gallery images are responsive and the images do not distort  | Resized the browser and checked the images against the different screen resolutions | Pass |
+
+## **Equipment Page**
+
+| Feature | Expect | Action | Result |
+| ------  | ------ | ------ | ------ |
+| Equipment Boxes Responsive | When screen size is Changed the equipment boxes and the content within are responsive | Resized the browser and checked the equipment boxes and content against different Screen Resolutions | Pass |
+|Retail Links | When a retail image is clicked a new tab will open in the browser and will display that retailers webpage.| Clicked on each retailers image to check for desired outcome. | Pass
+|Retail Images | When screen size is changed the retail images are responsive and do not distort. | Resized the browser and checked the Retail images against different screen resolutions. | Pass |
+
+## Sign Up Page
+
+| Feature | Expect | Action | Result |
+|---------|--------|--------|--------|
+|Sign up form Validation | Error messages appear if a submit attempt has been made and not all the fields have been filled out. | Submit the form without all information filled out | Pass
+|Sign up Form submit button| Form submits when the join us button is clicked | clicked the join us button on the form | Pass|
+| Sign Up form responsive | Sign Up form should be Responsive on all screen sizes | Resized browser and checked form on different screen sizes | Pass 
+
+## Social Media Links
+
+| Feature | Expect | Action | Result |
+|-------- | -------|--------|--------|
+Social Media Links | When a social media icon is clicked a new tab  is opened in the browser and will display that social medias webpage | Clicked on each social media icon to check for desired outcome| Pass|
+| Social Media links responsivity | Social Media Links should be responsive on all screen sizes. | Resized browser and check social media links on different screens. | Pass
+
+## Validator Testing
