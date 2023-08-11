@@ -9,7 +9,7 @@ A live version of the website can be accessed [here.](https://greenninjaboy.gith
 
 # Table of Contents
 
- - User Experience
+ - [User Experience] (#User-Experience)
 	 - User Demographic
 	 - User Stories
 	 - Wireframes
