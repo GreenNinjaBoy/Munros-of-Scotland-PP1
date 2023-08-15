@@ -298,7 +298,7 @@ All of the images with the exception of one were acquired  through google images
  - [Great View Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/great-view.webp?raw=true)
  - [Highland Cow Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/highland-cow.webp?raw=true)
  - [Hikers With Map Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/hikers-using-map-and-compass.webp?raw=true)
- - [Hiker Illustration Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/hiking.webp?raw=true) (This Image was taken from)
+ - [Hiker Illustration Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/hiking.webp?raw=true) (This Image was taken from [Flexiple](https://flexiple.com))
  - [Hikers Hiking Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/munro-bagging-grampians.webp?raw=true)
  - [Munro Jump Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/munro-jump-pic.webp?raw=true)
  - [Munro Man Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/munro-man.webp?raw=true)
