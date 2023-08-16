@@ -530,6 +530,12 @@ footer {
         padding-right: 10px;
     }
 
+    .container-image {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
     #organised {
         display: flex;
         flex-direction: column-reverse;
@@ -538,10 +544,6 @@ footer {
     .essentials {
         padding-left: 50px;
         padding-right: 50px;
-    }
-
-    #hiking {
-        display: inline-block;
     }
 
     .container-image {
@@ -554,16 +556,6 @@ footer {
     #hiking-illistration {
         height: 200px;
         width: 200px;
-    }
-
-    #boots-img,
-    #hiking-illistration {
-        margin-left: 60px;
-    }
-
-    #boots-img,
-    #map-compass-img {
-        margin-top: -10px;
     }
 
     .retail-header h4 {
@@ -755,6 +747,8 @@ footer {
     }
 
     .container-image {
+        display: flex;
+        align-items: center;
         padding: 10px 0 10px 0;
     }
 
