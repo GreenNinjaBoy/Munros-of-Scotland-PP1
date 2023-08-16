@@ -86,6 +86,7 @@ body {
 
 #menu a:hover {
     border-bottom: 1px solid black;
+    cursor: pointer;
 }
 
 /* munro history information*/
@@ -124,7 +125,7 @@ body {
     background-color: rgb(209, 190, 162);
     box-shadow: 10px 10px 10px 10px #55684d;
     transition: 0.3s;
-    border-radius: 5px;
+    border-radius: 60px;
 }
 
 .circular-image {
@@ -242,7 +243,7 @@ footer {
     padding-left: 50px;
     padding-right: 50px;
     border: 20px;
-    border-radius: 1%;
+    border-radius: 50px;
 
 }
 
@@ -274,15 +275,17 @@ footer {
     padding: 20px 0 20px 0;
 }
 
-#boots-img {
-    height: 300px;
-    width: 300px;
-}
-
+#boots-img,
 #map-compass-img {
     height: 300px;
     width: 300px;
+    border-radius: 50px;
 }
+
+/*#map-compass-img {
+    height: 300px;
+    width: 300px;
+}*/
 
 #hiking-illistration {
     width: 400px;
@@ -346,16 +349,17 @@ footer {
 
 .form-selection {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     margin: 50px 50px;
-    height: 450px;
+    height: max-content;
     background-color: rgb(209, 190, 162);
     box-shadow: 10px 10px 10px 10px #55684d;
     transition: 0.3s;
     padding-left: 150px;
     padding-right: 150px;
     border: 20px;
-    border-radius: 1%;
+    border-radius: 60px;
 }
 
 #signup-reasons {
@@ -381,6 +385,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: left;
+    justify-content: space-evenly;
     margin-right: 50px;
     background-color: rgb(209, 190, 162);
 
@@ -389,6 +394,7 @@ footer {
 #fname,
 #lname,
 #email {
+    font: inherit;
     font-size: 50%;
     height: 25px;
     border-radius: 5%;
@@ -402,11 +408,22 @@ footer {
     transition: 0.3s;
     width: 100px;
     height: 50px;
-    border-radius: 25%;
+    border: black 2px solid;
+    border-radius: 35%;
     font-family: inherit;
     font-size: 50%;
     position: relative;
+    align-self: center;
 
+}
+
+.join-button:hover {
+    cursor: pointer;
+}
+
+.join-button:active {
+    transform: scale(0.98);
+    box-shadow: 2.5px 2.5px 2.5px 2.5px #55684d;
 }
 
 .contact {
@@ -623,12 +640,13 @@ footer {
     }
 
     .join-button {
-        width: 80px;
-        height: 40px;
-        margin-left: 115px;
         margin-top: 15px;
         font-size: 75%;
         top: -30px;
+    }
+
+    #contact-info {
+        flex-direction: column;
     }
 
     #map-location {
@@ -819,8 +837,6 @@ footer {
     }
 
     .join-button {
-        width: 80px;
-        height: 40px;
         font-size: 75%;
         text-align: center;
         display: inline-block;
