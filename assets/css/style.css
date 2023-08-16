@@ -275,17 +275,11 @@ footer {
     padding: 20px 0 20px 0;
 }
 
-#boots-img,
-#map-compass-img {
+#boots-img #map-compass-img {
     height: 300px;
     width: 300px;
     border-radius: 50px;
 }
-
-/*#map-compass-img {
-    height: 300px;
-    width: 300px;
-}*/
 
 #hiking-illistration {
     width: 400px;
@@ -606,7 +600,7 @@ footer {
     .form-selection {
         flex-direction: column;
         margin: 20px 20px;
-        height: auto;
+        height: 600px;
         display: block;
         padding-left: 30px;
         padding-right: 10px;
