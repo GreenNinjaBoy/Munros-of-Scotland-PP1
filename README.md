@@ -26,7 +26,7 @@ A live version of the website can be accessed [here.](https://greenninjaboy.gith
 		 - [Gallery](#Gallery-Page)
 		 - [Equipment Page](#Equipment-Page)
 		 - [Sign-up and Contact](#Sign-up)
-		 - [Form Submission/Thank You Page](#Submission/Thank-You)
+		 - [Form Submission/Thank You Page](#Submission/Thank-You-page)
 		 - [Social Media Links](#Social-Media-Links)
 	- [Features Left to Implement](#Features-Left-to-Implement)
 - [Testing](#Testing)
