@@ -14,7 +14,7 @@ A live version of the website can be accessed [here.](https://greenninjaboy.gith
 	 - [User Stories](#User-Stories)
 	 - [Wireframes](#Wireframes)
 		 - [Desktop](#Desktop)
-	 - [Designs](#Designs)
+	 - [Designs](#Design)
 		 - [Colours](#Colours)
 		 - [Typography](#Typography)
  - [Features](#Features)
