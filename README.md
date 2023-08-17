@@ -25,9 +25,10 @@ A live version of the website can be accessed [here.](https://greenninjaboy.gith
 		 - [Motivational Video](#Motivational-Video)
 		 - [Gallery](#Gallery-Page)
 		 - [Equipment Page](#Equipment-Page)
+   		 - [Retail Information](#retail-information) 
 		 - [Sign-up and Contact](#Sign-Up-Page)
   		 - [Contact us Section](#contact-us)
-		 - [Form Submission/Thank You Page](#Submission/Thank-you-page)
+		 - [Form Submission/Thank You Page](#Submission-page)
 		 - [Social Media Links](#Social-Media-Links)
 	- [Features Left to Implement](#Features-Left-to-Implement)
 - [Testing](#Testing)
@@ -162,7 +163,7 @@ The Munro Baggers website comprises of 4 main pages, all of which can be navigat
 
 ![contact us section](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/contact-section-image.png?raw=true)
 
-### Submission/Thank you page
+### Submission Page
 
  - When the user completes the sign up form they are redirected to a thank you page.
  - This gives the user an indication that their form has been received and that they have signed up to the Munro Baggers Club.
