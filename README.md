@@ -43,6 +43,7 @@ A live version of the website can be accessed [here.](https://greenninjaboy.gith
 		- [HTML](#HTML)
 		- [CSS](#CSS)
 		- [Lighthouse](#Lighthouse)
+  		- [WCAG Contrast Checker](#WCAG-Contrast-Checker) 
 - [Known Bugs](#Known-Bugs)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
