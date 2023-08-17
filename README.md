@@ -29,8 +29,8 @@ A live version of the website can be accessed [here.](https://greenninjaboy.gith
 		 - [Form Submission/Thank You Page](#Form-Submission/Thank-You-Page)
 		 - [Social Media Links](#Social-Media-Links)
 	- [Features Left to Implement](#Features-Left-to-Implement)
-- [Testing]#Testing)
-	- [Navigation Bar](#Header-and-Navigation-Bar)
+- [Testing](#Testing)
+	- [Navigation Bar](#Header-and-Navigation-Bar-Test)
 	- [Main Header Image](#Main-Header-Image)
 	- [History Section](#History-Section)
 	- [Gallery](#Gallery-Page-Test)
@@ -188,7 +188,7 @@ The Munro Baggers website comprises of 4 main pages, all of which can be navigat
 
 Testing of the websites functionality can be seen within the tables below. Each section of the website has been tested according to the feature and testing different devices and screen resolutions has been conducted using Google DevTools. Each section has also been tested on live devices to determine it was accurate against Google DevTools.
 
-## **Header and Navigation Bar**
+## **Header and Navigation Bar Test**
 
 | Feature | Expect | Action | Result |
 | ------- | ------ | ------ | ------ |
