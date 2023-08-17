@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--add auto re-direct after 7 seconds of being on page-->
     <meta http-equiv="refresh" content="7; url='index.html'">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Scottish munro walks for beginners">
@@ -14,10 +15,16 @@
 </head>
 
 <body>
-    <header id="header-content">
-        <h1 class="main-logo"><a href="index.html">Munro Baggers</a></h1>
-        <h5 class="sub-logo"><a href="index.html">For those wishing to conquer Scotland</a></h5>
-    </header>
+<!--header section with main title and an image-->
+<header id="header-content">
+    <div id="logo">
+        <h1 class="main-logo"><a href="index.html" aria-label="home-page">Munro Baggers</a>
+        </h1>
+        <h5 class="sub-logo"><a href="index.html" aria-label="home-page">For those wishing to conquer Scotland</a>
+        </h5>
+    </div>
+</header>
+<!--thank you message for user after successful sign up with additional link to home page if re-direct fails-->
     <section class="thank-you">
         <h1>Thank you for signing up with munro baggers you will be redirected to the home page shortly</h1>
         <br>
