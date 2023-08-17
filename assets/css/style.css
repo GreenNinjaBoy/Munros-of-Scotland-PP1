@@ -22,7 +22,6 @@ body {
     height: 300px;
 
 
-align-items: center;
 }
 
 .main-logo {
@@ -60,19 +59,10 @@ align-items: center;
     font-size: 160%;
     letter-spacing: 5px;
     text-align: center;
-.circle-container-1 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: #55684d;
-    margin-top: 10px;
-    background-color: blue;
     align-items: center;
     top: 160px;
     background-color: rgb(209, 190, 162);
 
-    background-image: url(../images/munro-walk-picture\ \(1\).webp)
 }
 
 #menu li {
@@ -132,10 +122,11 @@ align-items: center;
     display: flex;
     flex-direction: column;
     padding-left: 25px;
+    padding-bottom: 10px;
     background-color: rgb(209, 190, 162);
     box-shadow: 10px 10px 10px 10px #55684d;
     transition: 0.3s;
-    border-radius: 60px;
+    border-radius: 20px;
     align-items: center;
 }
 
@@ -175,9 +166,6 @@ align-items: center;
     background-color: blue;
     align-items: center;
     background-image: url(../images/munro-bagging-grampians\ \(1\).webp);
-
-.circle-container {
-    padding-bottom: 50px;
 }
 
 #history-img {
@@ -891,14 +879,3 @@ footer {
         margin-bottom: 70px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
