@@ -37,7 +37,7 @@ A live version of the website can be accessed [here.](https://greenninjaboy.gith
 	- [History Section](#History-Section-Test)
 	- [Gallery](#Gallery-Page-Test)
 	- [Equipment Page](#Equipment-Page-Test)
-	- [Sign-up Form](#Sign-up-Form)
+	- [Sign-up Form](#Sign-up-page-test)
 	- [Social Media Links](#Social-Media-Links-Test)
 	- [Validator Testing](#Validator-Testing)
 		- [HTML](#HTML)
