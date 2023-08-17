@@ -357,8 +357,7 @@ footer {
     background-color: rgb(209, 190, 162);
     box-shadow: 10px 10px 10px 10px #55684d;
     transition: 0.3s;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 0 150px 20px 150px;
     border: 20px;
     border-radius: 60px;
 }
@@ -409,6 +408,7 @@ footer {
     transition: 0.3s;
     width: 100px;
     height: 50px;
+    margin-top: -25px;
     border: black 2px solid;
     border-radius: 35%;
     font-family: inherit;
