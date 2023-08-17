@@ -32,9 +32,9 @@ A live version of the website can be accessed [here.](https://greenninjaboy.gith
 - [Testing](#Testing)
 	- [Navigation Bar](#Header-and-Navigation-Bar-Test)
 	- [Main Header Image](#Main-Header-Image)
-	- [History Section](#History-Section)
+	- [History Section](#History-Section-Test)
 	- [Gallery](#Gallery-Page-Test)
-	- [Equipment Page](Equipment-Page-Test)
+	- [Equipment Page](#Equipment-Page-Test)
 	- [Sign-up Form](#Sign-up-Form)
 	- [Social Media Links](#Social-Media-Links-Test)
 	- [Validator Testing](#Validator-Testing)
@@ -94,7 +94,7 @@ The Munro Baggers website comprises of 4 main pages, all of which can be navigat
 
 # Existing Features
 
-## **Header and Navigation Bar**
+### Header and Navigation Bar
 
  - Featured on all four pages the header has a clickable title and subtitle, that will return the user to the home page and a responsive navigation bar.
  - The navigation bar allows the user to move around the website. The navigation bar incorporates links to Home, Gallery, Equipment and Sign up pages. A  text decoration of underline can be seen when the user hovers over a navigation link.
@@ -102,14 +102,14 @@ The Munro Baggers website comprises of 4 main pages, all of which can be navigat
 
 ![header and navigation bar](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/header-nav-bar-image.png?raw=true)
 
-## **History Section**
+### History Section
 
  - The history section contains some information for the user about the Munros of Scotland. It is comprised of three sections, each with their own headings.
  - To display the information, this section was split into three sections and displayed into three boxes that fit with the colour scheme of the website.
 
 ![image of history section](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/history-section-image.png?raw=true)
 
-## **Why Join us Section**
+### Why Join us Section
 
  - The Why Join us section contains some information about the walking club, the benefits of of walking and also what a user would have access to if the decided to join the club.
  - To display the information this, section was split into four paragraphs, no boxes were used in this section as it appears to flow more naturally. 
@@ -117,7 +117,7 @@ The Munro Baggers website comprises of 4 main pages, all of which can be navigat
 
 ![Image of why join us section](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/why-join-us-image.png?raw=true)
 
-## **Motivational Video**
+### Motivational Video
 
  - The final section of the home page includes a video. This video is designed to inspire and motivate the user to pursue their ambition to walk one of the Munros of Scotland.
  - This video will not auto-play, instead it is up to the user to decide wither or not to play the video. It is appropriate to the website and is motivational to the users.
@@ -126,7 +126,7 @@ The Munro Baggers website comprises of 4 main pages, all of which can be navigat
 
 ![motivational video](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/video-image.png?raw=true)
 
-## **Gallery Page**
+### Gallery Page
 
  - The gallery is an important aspect of this website. It further showcases some of the sights that Scotland has to offer the user.
  - The images are displayed into four columns when the page is shown on a desktop but shrinks to two columns when displayed on smaller devices such as mobile phones.
@@ -135,33 +135,33 @@ The Munro Baggers website comprises of 4 main pages, all of which can be navigat
 
 ![gallery on mobile display](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/gallery-mobile-display-image.png?raw=true)
 
-## **Equipment Page**
+### Equipment Page
 
  - The equipment page contains useful information for the user such as what type of equipment and safety information.
  - To display the information, this section was split into three sections and displayed into three boxes that fit with the colour scheme of the website. Which is very similar to the home page with the exception of instead of the information displaying as a row, they are displayed in a column. This was done to make the page flow more naturally.
 
 ![equipment section](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/equipment-section-image.png?raw=true)
 
-## **Retail Information**
+###Retail Information
  - Retail information was also added to the equipment page which displays three outdoor retailers, with each one clickable and takes the user to that retailers website.
 
 ![retail information](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/retailers-image.png?raw=true)
 
-## **Sign Up Page**
+### Sign Up Page
 
  - The sign up page allows users to sign up to the club and newsletter that will supply them with any planned club walks and up to date information regarding the club.
  - The sign up page is comprised of three input fields. It also contains form validation, in that all of the text fields must not be empty. the email field must contain and email address before the join now button can be clicked.
 
 ![sign up page](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/sign-up-image.png?raw=true)
 
-## **Contact us**
+### Contact us
 
  - Within the signup page there is also a contact section which provides users with further information on ways they can contact the club.
  - The display of this section is similar to the why join us section of the home page as it flows better with the sign up section.
 
 ![contact us section](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/contact-section-image.png?raw=true)
 
-## **Submission/Thank you page**
+### Submission/Thank you page
 
  - When the user completes the sign up form they are redirected to a thank you page.
  - This gives the user an indication that their form has been received and that they have signed up to the Munro Baggers Club.
@@ -169,7 +169,7 @@ The Munro Baggers website comprises of 4 main pages, all of which can be navigat
 
 ![thank-you-image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/thank-you-page-image.png?raw=true)
 
-## **Social Media Links**
+### Social Media Links
 
  - There is a footer at the bottom of every page and this footer consists of social media links.
  - The inspiration for these links were taken form the "Love Running" walkthrough project delivered by Code Institute. The display icons were chosen from [Font Awesome.](https://fontawesome.com/)
@@ -178,7 +178,7 @@ The Munro Baggers website comprises of 4 main pages, all of which can be navigat
 ![social-media-links](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/social-media-links.png?raw=true)
 
 
-## **Features Left to Implement**
+### Features Left to Implement
 
  - Possibly create  a page that would detail planned events the group have organized for the month.
  - A user profile could be created to allow the user to sign into the website.
@@ -188,7 +188,7 @@ The Munro Baggers website comprises of 4 main pages, all of which can be navigat
 
 Testing of the websites functionality can be seen within the tables below. Each section of the website has been tested according to the feature and testing different devices and screen resolutions has been conducted using Google DevTools. Each section has also been tested on live devices to determine it was accurate against Google DevTools.
 
-## **Header and Navigation Bar Test**
+### Header and Navigation Bar Test
 
 | Feature | Expect | Action | Result |
 | ------- | ------ | ------ | ------ |
@@ -199,13 +199,13 @@ Testing of the websites functionality can be seen within the tables below. Each 
 |Equipment Nav Button | When Clicked will take the user to the Equipment Page | Clicked Gallery Button | Pass
 |Sign up Nav Button | When clicked will take the user to the Sign up Page	| Clicked Sign Up Button | Pass
 
-## **Main Header Image**
+### Main Header Image
 
 |Feature| Expect  | Action | Result |
 |-----  |---------| -------| -------|
 | Main Header Image Responsive | When screen size is changed the image does not distort and fits onto the screen | Resized the browser and checked the image against different screen resolutions| Pass|
 
-## **History Section**
+### History Section Test
 
 | Feature | Expect | Action | Result |
 |---------|--------| -------| -------|
@@ -213,13 +213,13 @@ Testing of the websites functionality can be seen within the tables below. Each 
 | Why us Section | When screen size is changed the Why Us sections content change to fit the screen | Resized the browser and checked the Why Us section against different screen resolutions | Pass |
 | Video Section | The video will be responsive on all screen sizes | Resized the browser and checked the video against different screen resolutions | Pass
 
-## **Gallery Page Test**
+### Gallery Page Test
 
 |Feature| Expect  | Action | Result |
 |-------|-------- | ------ | -------|
 | Gallery Images Responsive | when screen size is changed the gallery images are responsive and the images do not distort  | Resized the browser and checked the images against the different screen resolutions | Pass |
 
-## **Equipment Page Test**
+### Equipment Page Test
 
 | Feature | Expect | Action | Result |
 | ------  | ------ | ------ | ------ |
@@ -227,7 +227,7 @@ Testing of the websites functionality can be seen within the tables below. Each 
 |Retail Links | When a retail image is clicked a new tab will open in the browser and will display that retailers webpage.| Clicked on each retailers image to check for desired outcome. | Pass
 |Retail Images | When screen size is changed the retail images are responsive and do not distort. | Resized the browser and checked the Retail images against different screen resolutions. | Pass |
 
-## Sign Up Page Test
+### Sign Up Page Test
 
 | Feature | Expect | Action | Result |
 |---------|--------|--------|--------|
@@ -235,7 +235,7 @@ Testing of the websites functionality can be seen within the tables below. Each 
 |Sign up Form submit button| Form submits when the join us button is clicked | clicked the join us button on the form | Pass|
 | Sign Up form responsive | Sign Up form should be Responsive on all screen sizes | Resized browser and checked form on different screen sizes | Pass 
 
-## Social Media Links Test
+### Social Media Links Test
 
 | Feature | Expect | Action | Result |
 |-------- | -------|--------|--------|
@@ -244,22 +244,22 @@ Social Media Links | When a social media icon is clicked a new tab  is opened in
 
 ## Validator Testing
 
-**HTML**
+### HTML
 No errors were shown when passed through the official [W3C Valitdator](https://validator.w3.org/)
 
 ![HMTL Validator](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/html-validator-img.png?raw=true)
 
-**CSS**
+### CSS
 No errors were shown when passed through the official [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ![css-validation-image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/css-validation.png?raw=true)
 
-**Lighthouse Testing**
+### Lighthouse Testing
 
 Insert image of lighthouse test here
 
 
-**WCAG Contrast Checker**
+### WCAG Contrast Checker
 
 This checker was used to check the text colour to the background colour on all pages with the option to show what the webpage would look like for users with some visual colour impairment.
 when checked the only error that was presenting was the main text and the colour white that was chosen, looking at the program this is because it was comparing the text against the main background colour of green and not the main header image that is is displayed on. It was decided that this text would remain white as it complimented the background and did not effect the over all look of the webpage when looking through the different colour impairment filters. 
@@ -287,7 +287,7 @@ The Live link Can be accessed here: [Munro Baggers](https://greenninjaboy.github
 
 
 
-## **Images**
+## Images
 
 All of the images with the exception of one were acquired  through google images, a list of these images can be found below:
 
