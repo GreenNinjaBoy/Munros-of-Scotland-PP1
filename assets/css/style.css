@@ -135,16 +135,16 @@ body {
     margin-top: 10px;
     background-color: blue;
     align-items: center;
-    background-image: url(../images/munro-walk-picture\ \(1\).webp)
+    background-image: url(../images/munro-walk-picture.webp);
 }
 
 .circle-container-2 {
-    background-image: url(../images/sir-hugh-munro\ \(1\).webp);
+    background-image: url(../images/sir-hugh-munro.webp);
     background-position: center;
 }
 
 .circle-container-3 {
-    background-image: url(../images/munro-bagging-grampians\ \(1\).webp);
+    background-image: url(../images/munro-bagging-grampians.webp);
 }
 
 /* Club information */
