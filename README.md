@@ -73,7 +73,7 @@ As a user of this website:
 
 Wireframes were produced for the home page. Some aspects of the homepage have changed as the website was being produced. the wire frame was created using [Figma](https://figma.com)
 
-![wireframe-image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-image/wireframe-image.png?raw=true)
+![wireframe-image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/wireframe-image.png?raw=true)
 
 ## Design
 
