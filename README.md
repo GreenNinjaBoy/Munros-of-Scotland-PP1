@@ -265,7 +265,7 @@ Insert image of lighthouse test here
 ### WCAG Contrast Checker
 
 This checker was used to check the text colour to the background colour on all pages with the option to show what the webpage would look like for users with some visual colour impairment.
-when checked the only error that was presenting was the main text colour  that was chosen, looking at the program this is because it was comparing the text against the main background colour of green and not the main header image that is is displayed on. It was decided that this text would remain white as it complimented the background and did not effect the over all look of the webpage when looking through the different colour impairment filters. One of which can be seen below.
+When checked the only error that was presenting was the main header text colour that was chosen, looking at the program this is because it was comparing the text against the main background colour of green and not the main header image that is is displayed on. It was decided that this text would remain white as it complimented the background and did not effect the over all look of the webpage when looking through the different colour impairment filters. One of which can be seen below.
 
 ![wcag-contrast-checker](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/wcag-contrast-checker-img.png?raw=true)
 
