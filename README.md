@@ -263,7 +263,7 @@ No errors were shown when passed through the official [CSS Validator](https://ji
 
 ### Lighthouse Testing
 
-All HTML pages passed when lighthouse testing was conducted..
+All HTML pages passed when lighthouse testing was conducted.
 
 ![lighthouse-test](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/lighthouse-test.png?raw=true)
 
@@ -290,6 +290,29 @@ The site was deployed to Github pages. The steps to deploy are as follows:
  6. The website will deploy, a link to the project will be seen at the top of the page.
 
 The Live link Can be accessed here: [Munro Baggers](https://greenninjaboy.github.io/Munros-of-Scotland-PP1/)
+
+The code was written using the approved IDE used by Code Institute - Codeanywhere. The steps I took to make sure my repository was working properly are as follows:
+
+1. Navigate to Github.
+2. Choose the desired GitHub repository.
+3. Click the green code button.
+4. Click the local tab and copy the HTTPS link.
+5. Navigate to [Codeanywhere](https://app.codeanywhere.com)
+6. Sign in with GitHub.
+7. Click add new workspace.
+8. Paste copied HTTPS and click create (Codeanyhere will now generate the virtual IDE).
+9. Once IDE has Loaded create inital index.html page and add test text.
+10. Once test text is added press `Ctrl + S` to save.
+11. Click terminal tab at top of screen and click new terminal.
+12. Once new terminal has opened test that content is being pushed back to github.
+13. In the terminal type `git add .` and press enter (this will add all new content).
+14. Then type `git commit -m "add test text"` and press enter (this lets anyone seeing your commits know what you have done).
+15. Once you have done that type `git push` and press enter (this will push all changes made to the github repository).
+16. Navigate to github.
+17. Choose the repository you were working on.
+18. Check the changes have been succesfully pushed.
+
+Note: If Codeanywhere is not working and another IDE is used remember the very first thing to do in the terminal is type `git pull` as this will pull all recent updates and changes made from the main branch repository.
 
 # Credits
 
