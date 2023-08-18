@@ -20,8 +20,6 @@ body {
     background-size: cover;
     position: relative;
     height: 300px;
-
-
 }
 
 .main-logo {
@@ -33,7 +31,6 @@ body {
     mix-blend-mode: screen;
     color: aliceblue;
 }
-
 
 .main-logo a {
     text-decoration: none;
@@ -50,8 +47,6 @@ body {
     text-decoration: none;
     color: aliceblue;
 }
-
-
 
 /* navigation links */
 
@@ -75,7 +70,6 @@ body {
     padding-bottom: 10px;
     background-color: rgb(209, 190, 162);
 }
-
 
 #menu li a {
     text-decoration: none;
@@ -130,7 +124,9 @@ body {
     align-items: center;
 }
 
-.circle-container-1 {
+.circle-container-1,
+.circle-container-2,
+.circle-container-3 {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -143,28 +139,11 @@ body {
 }
 
 .circle-container-2 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: #55684d;
-    margin-top: 20px;
-    background-color: blue;
-    align-items: center;
     background-image: url(../images/sir-hugh-munro\ \(1\).webp);
     background-position: center;
 }
 
 .circle-container-3 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: #55684d;
-    margin-top: 10px;
-    overflow: hidden;
-    background-color: blue;
-    align-items: center;
     background-image: url(../images/munro-bagging-grampians\ \(1\).webp);
 }
 
@@ -260,7 +239,6 @@ footer {
     text-decoration: underline;
 }
 
-
 .container-card p {
     font-size: 180%;
     text-align: left;
@@ -308,7 +286,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
-
 
 #mountainwarehouse-logo {
     width: 250px;
@@ -607,10 +584,8 @@ footer {
     .form-selection {
         flex-direction: column;
         margin: 20px 20px;
-        height: 600px;
         display: block;
-        padding-left: 30px;
-        padding-right: 10px;
+        padding: 20px;
     }
 
     #signup-reasons {

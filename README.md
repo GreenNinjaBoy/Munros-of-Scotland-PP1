@@ -251,7 +251,7 @@ Social Media Links | When a social media icon is clicked a new tab  is opened in
 
 ### HTML
 
-No errors were shown when passed through the official [W3C Valitdator](https://validator.w3.org/)
+All HTML files were passed through the offical [W3C Valitdator](https://validator.w3.org/) and no errors were found.
 
 ![HMTL Validator](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/html-validator-img.png?raw=true)
 
@@ -262,6 +262,8 @@ No errors were shown when passed through the official [CSS Validator](https://ji
 ![css-validation-image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/css-validation.png?raw=true)
 
 ### Lighthouse Testing
+
+All HTML pages passed when lighthouse testing was conducted.
 
 ![lighthouse-test](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/lighthouse-test.png?raw=true)
 
@@ -274,7 +276,7 @@ When checked the only error that was presenting was the main header text colour 
 
 # Known Bugs
 
-List any bugs below when running through final testing of the webpage.
+There are no known bugs found that I aware off.
 
 # Deployment
 
@@ -300,7 +302,7 @@ All of the images with the exception of one were acquired  through google images
 - [Great View Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/great-view.jpg?webp=true)
 - [Highland Cow Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/highland-cow.webp?raw=true)
 - [Hikers With Map Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/hikers-using-map-and-compass.webp?raw=true)
-- [Hiker Illustration Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/hiking.webp?raw=true) (This Image was taken from[flexiple](https://flexiple.com/illustrations/))
+- [Hiker Illustration Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/hiking.webp?raw=true) (This Image was taken from [flexiple](https://flexiple.com/illustrations/))
 - [Hikers Hiking Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/munro-bagging-grampians.webp?raw=true)
 - [Munro Jump Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/munro-jump-pic.webp?raw=true)
 - [Munro Man Image](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/images/munro-man.webp?raw=true)
