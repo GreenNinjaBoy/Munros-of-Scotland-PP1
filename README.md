@@ -263,7 +263,7 @@ No errors were shown when passed through the official [CSS Validator](https://ji
 
 ### Lighthouse Testing
 
-All HTML pages passed when lighthouse testing was conducted.
+All HTML pages passed when lighthouse testing was conducted..
 
 ![lighthouse-test](https://github.com/GreenNinjaBoy/Munros-of-Scotland-PP1/blob/main/assets/readme-images/lighthouse-test.png?raw=true)
 
